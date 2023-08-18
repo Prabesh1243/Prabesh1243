@@ -1,0 +1,632 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  margin-right: 5%;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  padding: 15px 15px;
+  transition: 0.6s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  color: #555;
+}
+.logo {
+  margin-top: -10px;
+}
+nav ul li:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.logo:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.Smart {
+  margin-top: -15px;
+}
+
+.my img {
+  margin-left: 40%;
+  margin-top: -5%;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col {
+  min-width: 400px;
+}
+.col h1 {
+  position: relative;
+  top: 200px;
+  text-align: left;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.col p {
+  position: relative;
+  top: 202px;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+.col img {
+  position: relative;
+  top: -300px;
+  left: 200px;
+  right: 70%;
+  width: 750px;
+  height: auto;
+  align-content: right;
+  transition: transform 1s;
+}
+.btn {
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  position: relative;
+  top: 180px;
+  font-family: "Poppins", sans-serif;
+  transition: transform 2s;
+}
+.btn:hover {
+  transform: translateX(4px);
+  transition: 0.7s ease;
+}
+.social ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+.social {
+  margin-bottom: -15%;
+  position: relative;
+  left: 24%;
+  top: -360px;
+}
+.social ul {
+  display: flex;
+}
+.social ul li .fa {
+  font-size: 20px;
+  line-height: 40px;
+  transition: 0.6s;
+  color: #fff;
+}
+.social ul li a {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  text-align: center;
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+.social ul li a:hover {
+  transform: translate(0, -10px);
+}
+.social ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social ul li:nth-child(2) a:hover {
+  background-color: #e4405f;
+}
+.social ul li:nth-child(3) a:hover {
+  background-color: #55acee;
+}
+.social ul li:nth-child(4) a:hover {
+  background-color: #c4302b;
+}
+
+.footer {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: auto;
+  width: 2000px;
+  padding-top: 30px;
+  align-items: center;
+  margin-right: -12%;
+}
+.footer h2 {
+  margin-right: 20%;
+  text-align: center;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+}
+.footer p {
+  text-align: center;
+}
+
+.footer ul {
+  font-size: 16px;
+  color: #555;
+  align-items: center;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #555;
+  transition: 0.6s;
+}
+.footer ul li {
+  padding-top: 2px;
+  list-style-type: none;
+  line-height: 5vh;
+}
+.row1 {
+  flex-basis: 30%;
+  padding: 15px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s ease;
+}
+.footer ul li a:hover {
+  color: rgb(6, 122, 143);
+  transform: translateX(0, -10x);
+}
+.categoriess {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15%;
+}
+.copyright {
+  margin-right: 20%;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  font-family: "Poppins", sans-serif;
+}
+.title::after {
+  content: "";
+  background: #ff523b;
+  height: 5px;
+  width: 80px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.y p {
+  position: relative;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size: 20px;
+  color: #555;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.leftcolumn {   
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  background-color: #3b5999;  
+}
+.fakeimg { 
+  width: 100%;
+  padding: 110px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: -10px;
+ 
+}
+.card h2 {
+  position: relative;
+  font-size: 35px;
+  color: black;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+.card h5{
+    position: relative;
+    font-size: 18px;
+    color: #555;
+    text-align: left;
+    font-family: "Poppins", sans-serif;  
+}
+.card p{
+  margin-top: 5px;
+  position: relative;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  font-family: "Poppins", sans-serif; 
+}
+
+.how:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col img {
+    position: relative;
+    top: -220px;
+    left: 90px;
+    margin-right: 0%;
+    max-width: 380px;
+    height: auto;
+    align-content: right;
+    transition: transform 1s;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .row h1 {
+    margin-left: 5%;
+    top: 50px;
+    font-size: 25px;
+    left: 10px;
+  }
+  .social ul li .fa {
+    font-size: 15px;
+    line-height: 25px;
+    transition: 0.6s;
+  }
+
+  .social ul li a {
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    transition: 0.6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+  }
+  .social {
+    position: relative;
+    left: -2px;
+    top: -210px;
+  }
+  .row p {
+    top: 50px;
+    left: 10px;
+    margin-left: 5%;
+    font-size: 13px;
+  }
+
+  .btn {
+    width: 132px;
+    font-size: 10px;
+    top: 40px;
+    left: 10px;
+    margin-left: 4.5%;
+  }
+  .footer ul li {
+    size: 10px;
+  }
+  .logo img {
+    size: 30px;
+  }
+  .footer {
+    max-width: 420px;
+    margin-top: 0px;
+  }
+  nav ul li {
+    padding: 12px 11.5px;
+    font-size: 12px;
+    margin-right: -20px;
+  }
+  .roww {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  .row2 img {
+    margin-top: -5px;
+    margin-bottom: 3%;
+    flex-basis: 75%;
+    max-width: 400px;
+  }
+  .roww iframe {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    max-width: 370px;
+  }
+}
+
+.roww {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+.row2 img {
+  margin-top: -5px;
+  margin-bottom: 3%;
+  flex-basis: 75%;
+  width: 600px;
+}
+.row2 iframe {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  flex-basis: 50%;
+}
+.twitter-tweet {
+  flex-basis: 20%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  font-family: "Poppins", sans-serif; 
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container1 {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+#container1 h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container1 {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #container1 h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #container1 h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
